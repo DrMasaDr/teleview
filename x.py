@@ -57,66 +57,6 @@ for i in rr.splitlines():
 rrr=requests.get('https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all').text
 for i in rrr.splitlines():
     prx.append(i)
-rrrr=requests.get('https://www.proxyscan.io/download?type=socks4').text
-for i in rrrr.splitlines():
-    prx.append(i)
-rrrrr=requests.get('https://www.proxyscan.io/download?type=http').text
-for i in rrrrr.splitlines():
-    prx.append(i)    
-rrrrrr=requests.get('https://www.proxyscan.io/download?type=https').text
-for i in rrrrrr.splitlines():
-    prx.append(i)    
-rrrrrrr=requests.get('https://www.proxyscan.io/download?type=socks5').text
-for i in rrrrrrr.splitlines():
-    prx.append(i)    
-rrrrrrrr=requests.get('https://www.sslproxies.org/').text
-for i in rrrrrrrr.splitlines():
-    prx.append(i)    
-rrrrrrrrr=requests.get('https://spys.one/en/https-ssl-proxy/').text
-for i in rrrrrrrrr.splitlines():
-    prx.append(i)    
-rrrrrrrrrr=requests.get('https://spys.one/en/socks-proxy-list/').text
-for i in rrrrrrrrrr.splitlines():
-    prx.append(i)    
-rrrrrrrrrrr=requests.get('https://www.proxy-list.download/HTTPS').text
-for i in rrrrrrrrrrr.splitlines():
-    prx.append(i)    
-rrrrrrrrrrrr=requests.get('https://www.proxy-list.download/SOCKS4').text
-for i in rrrrrrrrrrrr.splitlines():
-    prx.append(i)    
-rrrrrrrrrrrrr=requests.get('https://www.proxy-list.download/SOCKS5').text
-for i in rrrrrrrrrrrrr.splitlines():
-    prx.append(i)
-rrrrrrrrrrrrrr=requests.get('https://premiumproxy.net/https-ssl-proxy-list').text
-for i in rrrrrrrrrrrrrr.splitlines():
-    prx.append(i)
-rrrrrrrrrrrrrrr=requests.get('https://proxyscrape.com/free-proxy-list').text
-for i in rrrrrrrrrrrrrrr.splitlines():
-    prx.append(i)
-rrrrrrrrrrrrrrrr=requests.get('https://geonode.com/free-proxy-list').text
-for i in rrrrrrrrrrrrrrrr.splitlines():
-    prx.append(i)
-rrrrrrrrrrrrrrrrr=requests.get('https://advanced.name/freeproxy').text
-for i in rrrrrrrrrrrrrrrrr.splitlines():
-    prx.append(i)
-rrrrrrrrrrrrrrrrrr=requests.get('https://www.scraperapi.com').text
-for i in rrrrrrrrrrrrrrrrrr.splitlines():
-    prx.append(i)
-rrrrrrrrrrrrrrrrrrr=requests.get('http://spys.one/en').text
-for i in rrrrrrrrrrrrrrrrrrr.splitlines():
-    prx.append(i)
-rrrrrrrrrrrrrrrrrrrr=requests.get('https://openproxy.space/list').text
-for i in rrrrrrrrrrrrrrrrrrrr.splitlines():
-    prx.append(i)
-rrrrrrrrrrrrrrrrrrrrr=requests.get('http://free-proxy.cz/en').text
-for i in rrrrrrrrrrrrrrrrrrrrr.splitlines():
-    prx.append(i)
-rrrrrrrrrrrrrrrrrrrrrr=requests.get('http://www.freeproxylists.net').text
-for i in rrrrrrrrrrrrrrrrrrrrrr.splitlines():
-    prx.append(i)
-rrrrrrrrrrrrrrrrrrrrrrr=requests.get('https://spys.one/en/free-proxy-list').text
-for i in rrrrrrrrrrrrrrrrrrrrrrr.splitlines():
-    prx.append(i)
 
 bedwbara=[]
 bekeshahamui=[]
